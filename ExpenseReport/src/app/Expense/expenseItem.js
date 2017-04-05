@@ -8,5 +8,5 @@ function ExpenseItem(type, description, amount) {
 };
 
 ExpenseItem.prototype.isReasonable = function () {
-    return this.amount < 100;
+    return this.amount <= 100;
 }
